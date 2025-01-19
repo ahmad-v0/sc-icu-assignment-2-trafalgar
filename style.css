@@ -1,0 +1,60 @@
+@import url(./fonts/fonts.css);
+
+
+/* properties for typography  */
+.fs-1-125 {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}
+
+.fs-1-25 {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.fs-2-25 {
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+}
+.fs-3-c {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+p {
+    color: #7D7987;
+}
+
+/* properties for buttons */
+.btn-custom {
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+    /* line-height: 3.875rem; */
+    font-weight: 700;
+}
+
+.btn-blue {
+    color: #FFF;
+    background-color: #458FF6;
+}
+/* properties for body  */
+body {
+    font-family: 'Mulish';
+}
+/* properties for hero section  */
+/* .section-hero-title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+} */
+
+.hero-img {
+    width: 100%;
+}
+
+.section-hero-element {
+    position: absolute;
+    top: 10rem;
+}
