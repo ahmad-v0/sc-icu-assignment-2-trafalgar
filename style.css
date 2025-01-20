@@ -28,6 +28,11 @@ p {
     color: #7D7987;
 }
 
+/* properties for utility */
+.rounded-1-25 {
+    border-radius: 1.25rem;
+}
+
 /* properties for buttons */
 .btn-custom {
     padding: 1rem 2.5rem;
@@ -39,6 +44,12 @@ p {
 .btn-blue {
     color: #FFF;
     background-color: #458FF6;
+}
+
+.btn-white {
+    color: #458FF6;
+    background-color: #FFF;
+    border: 2px solid;
 }
 /* properties for body  */
 body {
@@ -57,4 +68,51 @@ body {
 .section-hero-element {
     position: absolute;
     top: 10rem;
+}
+
+/* properties for service section  */
+.section-divider {
+    display: block;
+    width: 3.5rem;
+    height: 0.125rem;
+    background-color: black;
+}
+
+.card-img-c {
+    width: 6rem;
+}
+
+.card-c {
+    /* height: 22rem; */
+    height: 28rem;
+}
+
+.card-img-c,
+.card-body-c {
+    height: 50%;
+}
+
+.card-img-c {
+    object-fit:contain;
+}
+
+.element-service-bg2 {
+    right: 0;
+}
+
+.element-service-bg1 {
+    top: 0;
+    z-index: -1;
+}
+
+/* properties for responsive design  */
+@media only screen and (width<=600px) {
+    .text-sm-justify {
+        text-align: justify;
+    }
+
+    .w-sm-100 {
+        width: 100%;
+    }
+    
 }
